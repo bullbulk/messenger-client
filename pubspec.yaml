@@ -31,6 +31,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  google_fonts: ^2.1.0
+
+  http              : ^0.13.0
+  device_info_plus: ^2.1.0
+  # crypto            : ^3.0.0
+  # localstorage      : ^#4.0.0+1
+  email_validator   : ^2.0.1
+  # flutter_spinkit   : ^5.0.0
+  socket_io_client  : ^2.0.0-beta.3-nullsafety.0
+  hive              : ^2.0.4
+  path_provider     : ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -84,3 +95,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+# Enables deprecated Android API
+module:
+  androidX: true
