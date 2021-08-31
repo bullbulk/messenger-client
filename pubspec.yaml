@@ -35,7 +35,7 @@ dependencies:
 
   http              : ^0.13.0
   device_info_plus: ^2.1.0
-  # crypto            : ^3.0.0
+  crypto            : ^3.0.0
   # localstorage      : ^#4.0.0+1
   email_validator   : ^2.0.1
   # flutter_spinkit   : ^5.0.0
